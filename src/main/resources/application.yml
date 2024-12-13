@@ -1,0 +1,12 @@
+server:
+  port: 3010
+
+spring:
+  config:
+    import: "optional:file:.env[.properties]"
+
+
+gemini:
+  api-url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key="
+  api-key: ${GEMINI_API_KEY}
+#  api-key: "<your_api_key>" # Replace with the Gemini token
