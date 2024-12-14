@@ -96,10 +96,3 @@ Analyzes the given algorithm code and returns time and space complexity metrics.
     "time": "2024-12-14T10:24:55.5193805"
 }
 ```
-
----
-
-## Technologies Used
-- **Spring Boot**: Framework for building Java-based REST APIs.
-- **Swagger/OpenAPI**: API documentation and testing.
-- **Gemini API**: AI-powered algorithm complexity analysis.
