@@ -10,3 +10,14 @@ gemini:
   api-url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key="
   api-key: ${GEMINI_API_KEY}
 #  api-key: "<your_api_key>" # Replace with the Gemini token
+
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+  packages-to-scan:
+    - com.example.controller
